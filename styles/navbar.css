@@ -1,0 +1,86 @@
+
+.navbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #9f86c0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.navbar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #231942;
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffeffa;
+}
+
+.openbtn {
+  font-size: 50px;
+  cursor: pointer;
+  background-color: #9f86c0;
+  color: #ffeffa;
+  padding: 10px 15px;
+  border: none;
+}
+.closebtn {
+  font-size: 50px;
+  cursor: pointer;
+  background-color: #9f86c0;
+  color: #ffeffa;
+  padding: 10px 15px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #cb2f97;
+}
+
+#main {
+    margin-left: 100px;
+  transition: margin-left .5s;
+}
+
+.sidebar {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #9f86c0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #231942;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #ffeffa;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .navbar {padding-top: 15px;}
+  .navbar a {font-size: 18px;}
+}

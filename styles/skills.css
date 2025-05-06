@@ -1,0 +1,33 @@
+
+#Skills{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.carroussel{
+    display: flex;
+    flex-direction: row;
+}
+
+.indicator{
+    flex-basis: 33%;
+}
+
+.div_svg{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+
+.post {
+    display: none;
+}
+.post.active {
+    display: block;
+}

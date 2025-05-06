@@ -14,6 +14,7 @@ https://louise-ley.ovh/
 - better error handling
 - http request answers
 - better CSS (no hard code)
+- add filters to projects.php
 
 
 ## Resources used : 
